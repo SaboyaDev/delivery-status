@@ -1,0 +1,46 @@
+@import 'https://unpkg.com/open-props/src/extra/normalize.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu&display=swap');
+
+:root {
+	--white: #ffffff;
+	--heading: #2f463d;
+	--paragraph: #828282;
+	--price: #7a8f85;
+	--link: #467a66;
+	--link-hover: #52a182;
+	--section-bg: #f0fff5;
+	--btn: #46a67e;
+	--btn-hover: #59d2a0;
+	--active-dot: #67bd99;
+	--inactive-dot: #e0e0e0;
+}
+
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.6rem;
+	font-family: 'Montserrat', sans-serif;
+}
+p {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* ------ */
+.main-wrapper {
+	width: 100%vw;
+	height: 100vh;
+	background-image: url('https://assets.codepen.io/6060109/ZigZag.png');
+	background-size: cover;
+	display: grid;
+	place-items: center;
+}
+
+.card {
+	width: 32.7rem;
+	height: 56.7rem;
+	background-color: var(--white);
+	border-radius: 0.5rem;
+	box-shadow: var(--shadow-4);
+}
